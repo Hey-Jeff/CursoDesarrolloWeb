@@ -6,7 +6,6 @@ package Tienda2.service;
 
 import Tienda2.entity.Pais;
 import Tienda2.repository.PaisRepository;
-import com.tienda.repository.PaisRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

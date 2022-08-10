@@ -4,9 +4,9 @@
  */
 package Tienda2.controller;
 
-import com.tienda.enums.TipoReporteEnum;
-import com.tienda.model.ReportePersonasDTO;
-import com.tienda.service.api.ReportePersonasServiceAPI;
+import Tienda2.enums.TipoReporteEnum;
+import Tienda2.model.ReportePersonasDTO;
+import Tienda2.service.api.ReportePersonasServiceAPI;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Map;

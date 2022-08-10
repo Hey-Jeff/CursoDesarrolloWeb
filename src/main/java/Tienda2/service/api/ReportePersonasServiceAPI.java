@@ -19,3 +19,4 @@ public interface ReportePersonasServiceAPI {
     ReportePersonasDTO obtenerReportePersonas(Map<String, Object> params) throws JRException, IOException, SQLException;
     
 }
+

@@ -14,7 +14,7 @@ import java.util.Map;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
-import com.tienda.enums.TipoReporteEnum;
+import Tienda2.enums.TipoReporteEnum;
 
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperExportManager;

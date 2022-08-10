@@ -4,25 +4,21 @@
  */
 package Tienda2.service;
 
-import com.tienda.entity.Persona;
-import java.util.List;
-import com.verdureria.entity.Producto;
+import Tienda2.entity.Persona;
 import java.util.List;
 
 
 public interface iPersonaService {
-    
-
- 
-     public List <Producto> getAllVerdura();
-     public Producto getVerduraById (long Id);
-     public void saveVerdura (Producto verdura);
-     public void delete (long id);
 
     public List<Persona> getAllPersona();
 
+    public Persona getPersonaById(long id);
+
     public void savePersona(Persona persona);
 
-    public Persona getPersonaById(Long idPersona);
+    public void delete(long id);
+    
+    //Devolver una persona por el nombre
+    public Persona findByNombre (String nombre); 
     
 }

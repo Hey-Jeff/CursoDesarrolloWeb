@@ -4,7 +4,7 @@ package Tienda2.controller;
 import Tienda2.entity.Pais;
 import Tienda2.service.iPaisService;
 import Tienda2.service.iPersonaService;
-import com.tienda.entity.Persona;
+import Tienda2.entity.Persona;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -46,7 +46,7 @@ public class PersonaController {
 
     @GetMapping("/editPersona/{id}")
     public String editarPersona(@PathVariable("id") Long idPersona, Model model) {
-        Persona persona = personaService.getPersonaById(idPersona);
+        Object persona = personaService.getPersonaById(idPersona);
         List<Pais> listaPaises = paisService.listCountry();
         model.addAttribute("persona", persona);
         model.addAttribute("paises", listaPaises);
