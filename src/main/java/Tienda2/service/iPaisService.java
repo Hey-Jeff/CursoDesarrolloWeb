@@ -4,10 +4,11 @@
  */
 package Tienda2.service;
 
-/**
- *
- * @author anaso
- */
+import Tienda2.entity.Pais;
+import java.util.List;
+
+
 public interface iPaisService {
     
+    public List<Pais> listCountry();
 }

@@ -17,7 +17,5 @@ public interface iPersonaService {
      public Producto getVerduraById (long Id);
      public void saveVerdura (Producto verdura);
      public void delete (long id);
-
-
     
 }
