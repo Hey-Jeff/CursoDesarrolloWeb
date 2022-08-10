@@ -1,5 +1,6 @@
-package com.tienda.entity;
+package Tienda2.entity;
 
+import Tienda2.entity.Pais;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
